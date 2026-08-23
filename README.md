@@ -1,9 +1,11 @@
-# Convolve 3.0 — Credit Risk (Bad Flag) Prediction
+# Credit Card Fraud Detection
 
 Binary classification model that predicts whether a customer will default
 (`bad_flag = 1`) using behavioural, transaction, and bureau data.
 
 ## Dataset
+
+- Dataset folder: [Google Drive link](https://drive.google.com/drive/folders/1L3b09NTC3cK8Z1vtSk9vIsD-mzQDrQMq)
 
 - **96,806** customers, **1,212** raw features across 4 feature families:
   - `onus` — 48 features
@@ -95,6 +97,7 @@ where missing an actual default is costlier than a false alarm.
 1. Open `CreditRisk.ipynb` in Google Colab.
 2. Run the first cell to mount Google Drive when prompted.
 3. Ensure `Dev_data_to_be_shared.csv` is available at:
-   `/content/drive/MyDrive/CONVOLVE 3.0 - CREDIT RISK/Dev_data_to_be_shared.csv`
+   `/content/drive/MyDrive/Credit Card Fraud Detection/Dev_data_to_be_shared.csv`
    (or update the path in the data-loading cell).
 4. Run all cells top to bottom (Runtime → Run All). No GPU required.
+
